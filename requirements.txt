@@ -1,0 +1,17 @@
+# Requirements for the Project
+
+# Chatbot dependencies
+chatterbot
+
+# NLP dependencies
+nltk
+spacy
+tensorflow
+
+# Machine Learning dependencies
+scikit-learn
+pandas
+numpy
+
+# Auto-enhancement capabilities
+opencv-python
