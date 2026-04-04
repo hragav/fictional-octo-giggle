@@ -1,15 +1,6 @@
 import { Link, useLocation, Outlet } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import {
-  LayoutDashboard,
-  Users,
-  List,
-  MessageSquare,
-  BarChart3,
-  LogOut,
-  Menu,
-  X,
-} from 'lucide-react';
+import { LayoutDashboard, Users, List, MessageSquare, ChartBar as BarChart3, LogOut, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const navigation = [

@@ -2,14 +2,7 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import { format } from 'date-fns';
-import {
-  BarChart3,
-  TrendingUp,
-  Users,
-  MousePointer,
-  MessageSquare,
-  Calendar,
-} from 'lucide-react';
+import { ChartBar as BarChart3, TrendingUp, Users, MousePointer, MessageSquare, Calendar } from 'lucide-react';
 
 export default function Analytics() {
   const { businessProfile } = useAuth();

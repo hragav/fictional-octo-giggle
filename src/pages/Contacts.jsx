@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
-import { Plus, Search, Tag, Trash2, Edit2, X, Users } from 'lucide-react';
+import { Plus, Search, Tag, Trash2, CreditCard as Edit2, X, Users } from 'lucide-react';
 
 export default function Contacts() {
   const { businessProfile } = useAuth();

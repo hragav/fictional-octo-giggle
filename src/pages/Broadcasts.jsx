@@ -2,17 +2,7 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import { format } from 'date-fns';
-import {
-  Plus,
-  Calendar,
-  Send,
-  Clock,
-  CheckCircle,
-  XCircle,
-  Loader2,
-  X,
-  MessageSquare,
-} from 'lucide-react';
+import { Plus, Calendar, Send, Clock, CircleCheck as CheckCircle, Circle as XCircle, Loader as Loader2, X, MessageSquare } from 'lucide-react';
 
 const STATUS_CONFIG = {
   draft: { label: 'Draft', icon: Clock, color: 'gray' },
